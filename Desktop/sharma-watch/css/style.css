@@ -1,0 +1,228 @@
+/* =========================
+   GLOBAL RESET & BASE
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #0b0b0b;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* =========================
+   HEADER / HERO
+========================= */
+.header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(180deg, #000000, #111111);
+}
+
+/* BRAND (LOGO + NAME) */
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  color: #d4af37; /* gold */
+}
+
+.header p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #dddddd;
+}
+
+/* =========================
+   CTA BUTTON (WhatsApp)
+========================= */
+.cta {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 28px;
+  background-color: #d4af37;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #b8962e;
+  transform: translateY(-2px);
+}
+
+/* =========================
+   TRUST / FEATURES BAR
+========================= */
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px 10px;
+}
+
+.features div {
+  margin: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* =========================
+   PRODUCT CARD (Shop / Product)
+========================= */
+.product {
+  background-color: #ffffff;
+  color: #000000;
+  margin: 25px 15px;
+  padding: 22px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.product img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 10px;
+}
+
+.product h2 {
+  margin-top: 15px;
+  font-size: 1.3rem;
+}
+
+.price {
+  margin: 10px 0;
+  font-size: 1.4rem;
+  color: #d4af37;
+  font-weight: bold;
+}
+
+.product ul {
+  list-style: none;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.product ul li {
+  margin: 6px 0;
+  font-size: 0.9rem;
+}
+
+/* =========================
+   ABOUT / CONTENT SECTIONS
+========================= */
+.about {
+  padding: 30px 20px;
+  background-color: #111111;
+}
+
+.about h2 {
+  text-align: center;
+  color: #d4af37;
+  margin-bottom: 15px;
+}
+
+.about p {
+  font-size: 0.95rem;
+  text-align: center;
+  color: #dddddd;
+  margin-bottom: 10px;
+}
+
+/* =========================
+   FAQ SECTION (Optional)
+========================= */
+.faq {
+  padding: 30px 20px;
+  background-color: #0f0f0f;
+}
+
+.faq h2 {
+  text-align: center;
+  color: #d4af37;
+  margin-bottom: 15px;
+}
+
+.faq p {
+  font-size: 0.9rem;
+  color: #dddddd;
+  margin-bottom: 10px;
+}
+
+/* =========================
+   INSTAGRAM / SOCIAL SECTION
+========================= */
+.social {
+  padding: 30px 20px;
+  background-color: #111111;
+  text-align: center;
+}
+
+.social h2 {
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.social a {
+  color: #000000;
+  background-color: #d4af37;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  background-color: #000000;
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #aaaaaa;
+}
+
+/* =========================
+   FLOATING WHATSAPP BUTTON
+========================= */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #ffffff;
+  padding: 14px 16px;
+  border-radius: 50%;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 999;
+}
+
+/* =========================
+   INSTALL APP BUTTON (PWA)
+========================= */
+#installApp {
+  margin-top: 20px;
+}

@@ -1,0 +1,131 @@
+/* =========================
+   MOBILE FIRST (DEFAULT)
+========================= */
+
+/* Header spacing thoda tight */
+.header {
+  padding: 40px 15px;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+}
+
+.header p {
+  font-size: 0.95rem;
+}
+
+/* CTA full width on mobile */
+.cta {
+  width: 100%;
+  max-width: 320px;
+  padding: 14px;
+}
+
+/* Product cards mobile friendly */
+.product {
+  margin: 20px 10px;
+  padding: 18px;
+}
+
+.product img {
+  max-width: 240px;
+}
+
+/* List text readable on small screens */
+.product ul li {
+  font-size: 0.85rem;
+}
+
+/* About / text sections */
+.about {
+  padding: 25px 15px;
+}
+
+.about p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+/* Footer */
+footer {
+  font-size: 0.8rem;
+}
+
+/* Floating WhatsApp button smaller */
+.whatsapp-float {
+  padding: 12px 14px;
+  font-size: 0.85rem;
+}
+
+/* =========================
+   TABLET (≥ 768px)
+========================= */
+@media (min-width: 768px) {
+
+  .header {
+    padding: 60px 30px;
+  }
+
+  .header h1 {
+    font-size: 2.4rem;
+  }
+
+  .header p {
+    font-size: 1.05rem;
+  }
+
+  .cta {
+    width: auto;
+    padding: 14px 28px;
+  }
+
+  /* Product centered and wider */
+  .product {
+    max-width: 680px;
+    margin: 30px auto;
+  }
+
+  .product img {
+    max-width: 300px;
+  }
+
+  .product ul li {
+    font-size: 0.9rem;
+  }
+
+  .about {
+    max-width: 720px;
+    margin: auto;
+  }
+}
+
+/* =========================
+   DESKTOP (≥ 1024px)
+========================= */
+@media (min-width: 1024px) {
+
+  .header h1 {
+    font-size: 2.8rem;
+  }
+
+  .header p {
+    font-size: 1.1rem;
+  }
+
+  .product {
+    max-width: 800px;
+  }
+
+  .product img {
+    max-width: 340px;
+  }
+
+  .about {
+    max-width: 900px;
+  }
+
+  footer {
+    font-size: 0.85rem;
+  }
+}
